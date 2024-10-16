@@ -51,21 +51,21 @@ Choose an option:
     => completed: Boolean indicating if the task is completed (True or False).
 
 ## Functions
-=> add_task(tasks, title): Adds a new task to the list.
-=> view_tasks(tasks): Displays tasks with their ID, title, and status.
-=> delete_task(tasks, task_id): Deletes a task based on its ID.
-=> complete_task(tasks, task_id): Marks a task as completed.
-=> save_tasks(tasks, filename='tasks.json'): Saves tasks to a JSON file.
-=> load_tasks(filename='tasks.json'): Loads tasks from a JSON file.
+- add_task(tasks, title): Adds a new task to the list.
+- view_tasks(tasks): Displays tasks with their ID, title, and status.
+- delete_task(tasks, task_id): Deletes a task based on its ID.
+- complete_task(tasks, task_id): Marks a task as completed.
+- save_tasks(tasks, filename='tasks.json'): Saves tasks to a JSON file.
+- load_tasks(filename='tasks.json'): Loads tasks from a JSON file.
 
 ## CLI Loop
-=> Displays the menu and waits for user input to perform actions like adding, viewing, deleting, and completing tasks.
-=> Saves tasks before exiting the application.
+- Displays the menu and waits for user input to perform actions like adding, viewing, deleting, and completing tasks.
+- Saves tasks before exiting the application.
 
 ## File Handling
-=> Save Tasks: The save_tasks() function converts tasks to a JSON-compatible format and writes them to tasks.json.
-=> Load Tasks: The load_tasks() function reads data from tasks.json and reconstructs the task list. If the file is not found, it initializes an empty list.
+- Save Tasks: The save_tasks() function converts tasks to a JSON-compatible format and writes them to tasks.json.
+- Load Tasks: The load_tasks() function reads data from tasks.json and reconstructs the task list. If the file is not found, it initializes an empty list.
 
 ## Troubleshooting
-=> Task ID Issues: Ensure the task ID is numeric; otherwise, an error message will be displayed.
-=> File Not Found: If tasks.json is missing, an empty task list will be initialized, and the file will be created upon saving.
+- Task ID Issues: Ensure the task ID is numeric; otherwise, an error message will be displayed.
+- File Not Found: If tasks.json is missing, an empty task list will be initialized, and the file will be created upon saving.
