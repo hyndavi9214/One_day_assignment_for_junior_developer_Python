@@ -36,11 +36,12 @@ Choose an option:
 ==> Enter the number corresponding to the action you want to perform, and follow the prompts.
 
 ## Example Menu Usage
-=> Add Task: Enter a task title. A new task is added with a "Pending" status.
-=> View Tasks: Displays all tasks with their IDs, titles, and statuses.
-=> Delete Task: Enter a task ID to delete the task if the ID is valid.
-=> Complete Task: Enter a task ID to mark it as complete if the ID is valid.
-=> Exit: Saves tasks to tasks.json and exits the application.
+- Add Task: Enter a task title. A new task is added with a "Pending" status.
+- View Tasks: Displays all tasks with their IDs, titles, and statuses.
+- View Tasks: Displays all tasks with their IDs, titles, and statuses.
+- Delete Task: Enter a task ID to delete the task if the ID is valid.
+- Complete Task: Enter a task ID to mark it as complete if the ID is valid.
+- Exit: Saves tasks to tasks.json and exits the application.
 
 ## Code Overview
 ## Task Class
